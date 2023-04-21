@@ -2,7 +2,7 @@
   "name": "nuxt-amplitude-module",
   "version": "1.0.2",
   "description": "Amplitude module for Nuxt",
-  "repository": "your-org/nuxt-amplitude-module",
+  "repository": "fire7/nuxt-amplitude-module",
   "license": "MIT",
   "type": "module",
   "exports": {
