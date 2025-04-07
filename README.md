@@ -34,13 +34,13 @@ Amplitude module for Nuxt.
 
 ```bash
 # Using pnpm
-pnpm add -D nuxt-amplitude-module
+pnpm add nuxt-amplitude-module
 
 # Using yarn
-yarn add --dev nuxt-amplitude-module
+yarn add nuxt-amplitude-module
 
 # Using npm
-npm install --save-dev nuxt-amplitude-module
+npm install nuxt-amplitude-module
 ```
 
 2. Add `nuxt-amplitude-module` to the `modules` section of `nuxt.config.ts`
