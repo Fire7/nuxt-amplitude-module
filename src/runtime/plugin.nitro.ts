@@ -1,5 +1,6 @@
-import { NitroApp } from 'nitropack'
+import type { NitroApp } from 'nitropack'
 import * as amplitude from '@amplitude/analytics-node'
+
 
 declare module "nitropack" {
   interface NitroApp {

@@ -8,7 +8,6 @@ describe('csr', async () => {
     browser: true,
     nuxtConfig: {
       ssr: false,
-      // @ts-ignore
       amplitude: {
         client: true,
         server: true,

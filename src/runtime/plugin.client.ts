@@ -2,7 +2,7 @@ import * as amplitude from '@amplitude/analytics-browser'
 
 import { defineNuxtPlugin, useRuntimeConfig } from '#app'
 
-export default defineNuxtPlugin(nuxtApp => {
+export default defineNuxtPlugin(_nuxtApp => {
   const config = useRuntimeConfig().public.amplitude.config
 
   if (typeof config === 'object') {

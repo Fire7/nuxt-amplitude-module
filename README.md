@@ -1,12 +1,3 @@
-<!--
-Get your module up and running quickly.
-
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: My Module
-- Package name: nuxt-amplitude-module
-- Description: My new Nuxt module
--->
-
 # nuxt-amplitude-module
 
 [![npm version][npm-version-src]][npm-version-href]
@@ -23,7 +14,7 @@ Amplitude module for Nuxt.
 ## Features
 
 <!-- Highlight some of the features your module provide here -->
-- Nuxt 3 support
+- Nuxt 3/4+ support
 - Amplitude typescript support
 - Works with client-side ([@amplitude/analytics-browser](https://www.docs.developers.amplitude.com/data/sdks/typescript-browser/)) and server-side ([@amplitude/analytics-node](https://www.docs.developers.amplitude.com/data/sdks/typescript-node/))
 - Available in nitro
@@ -53,7 +44,7 @@ export default defineNuxtConfig({
 })
 ```
 
-That's it! You can now use My Module in your Nuxt app ✨
+That's it! You can now use `nuxt-amplitude-module` in your Nuxt app ✨
 
 ## Configuration
 

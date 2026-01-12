@@ -7,7 +7,6 @@ describe('ssr', async () => {
     rootDir:  fileURLToPath(new URL('./fixtures/basic', import.meta.url)),
     server: true,
     nuxtConfig: {
-      // @ts-ignore
       amplitude: {
         client: true,
         server: true,

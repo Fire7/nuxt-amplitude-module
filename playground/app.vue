@@ -1,12 +1,12 @@
 <script setup>
   const { $amplitude } = useNuxtApp()
 
-  if (process.server && $amplitude) {
+  if (import.meta.server && $amplitude) {
     $amplitude.track('SSR setup')
     console.log('SSR setup @amplitude/analytics-node track')
   }
 
-  if (process.client && $amplitude) {
+  if (import.meta.client && $amplitude) {
     $amplitude.track('CSR setup')
     console.log('CSR setup @amplitude/analytics-browser track')
   }
